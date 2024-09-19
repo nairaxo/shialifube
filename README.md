@@ -14,7 +14,7 @@ pip install shialifube
 ## Via GitHub
 Si vous souhaitez installer la dernière version depuis le dépôt GitHub (qui pourrait contenir des modifications non encore publiées sur PyPI), vous pouvez le faire en utilisant pip avec l'URL du dépôt:
 ```bash
-pip install git+https://github.com/votre_nom_utilisateur/shialifube.git
+pip install git+https://github.com/nairaxo/shialifube.git
 ```
 
 
