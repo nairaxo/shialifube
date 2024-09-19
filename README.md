@@ -1,25 +1,27 @@
 # ShiAlifube
-ShiAlifube est une bibliothèque qui permet de translittérer le Comorien en caractères arabes en suivant le système de Cheikh Ahmed Kamar-Eddine. Ce système a été proposé dans les années 1960 par Kamar-Eddine, une figure pionnière de la normalisation de la langue comorienne. Le choix de l'écriture en alphabet arabe découle des nombreux emprunts lexicaux du Comorien à l'arabe, liés à l'influence historique importante des Arabes dans l'archipel des Comores.
+**ShiAlifube** is a Python library for transliterating Comorian into Arabic script using the Kamar-Eddine system. This system was proposed in the 1960s by Cheikh Ahmed Kamar-Eddine, a pioneer in the standardization of the Comorian language. The choice of Arabic script is due to the Comorian language's lexical borrowings from Arabic, reflecting the historical influence of Arabs in the Comoros archipelago.
 
 ## Installation
 
 ### Via PyPI
 
-Vous pouvez installer **ShiAlifube** directement depuis PyPI en utilisant `pip` :
+You can install **ShiAlifube** directly from PyPI using `pip`:
 
 ```bash
 pip install shialifube
 ```
 
-## Via GitHub
-Si vous souhaitez installer la dernière version depuis le dépôt GitHub (qui pourrait contenir des modifications non encore publiées sur PyPI), vous pouvez le faire en utilisant pip avec l'URL du dépôt:
+### Via GitHub
+If you wish to install the latest version from the GitHub repository (which may contain updates not yet published on PyPI), you can do so using pip with the repository URL:
+
 ```bash
 pip install git+https://github.com/nairaxo/shialifube.git
 ```
 
 
 ## Citation
-Si vous utilisez ShiAlifube dans vos travaux, merci de citer la bibliothèque en utilisant le format suivant :
+If you use **ShiAlifube** in your work, please cite the library using the following format:
+
 ```bibtex
 @misc{shialifube,
   author = {Abdou Mohamed Naira},
