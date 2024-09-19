@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+shialifube/__init__.py
+shialifube/transliterator.py
+shialifube.egg-info/PKG-INFO
+shialifube.egg-info/SOURCES.txt
+shialifube.egg-info/dependency_links.txt
+shialifube.egg-info/top_level.txt
