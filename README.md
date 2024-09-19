@@ -35,6 +35,8 @@ If you wish to install the latest version from the GitHub repository (which may 
 pip install git+https://github.com/nairaxo/shialifube.git
 ```
 
+# Contributions Welcome
+Given the limited availability of documents on the Kamar-Eddine system, we invite the community to share any information, resources, or insights that could contribute to improving the ShiAlifube library. Your contributions are valuable in enhancing the accuracy and functionality of this tool, and we greatly appreciate any support in this endeavor.
 
 # Citation
 If you use **ShiAlifube** in your work, please cite the library using the following format:
