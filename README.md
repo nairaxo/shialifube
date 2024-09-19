@@ -3,9 +3,20 @@
 </p>
 
 
-# About the library
-
+# ShiAlifube
+## About
 **ShiAlifube** is a Python library for transliterating Comorian into Arabic script using the Kamar-Eddine system. This system was proposed in the 1960s by Cheikh Ahmed Kamar-Eddine, a pioneer in the standardization of the Comorian language. The choice of Arabic script is due to the Comorian language's lexical borrowings from Arabic, reflecting the historical influence of Arabs in the Comoros archipelago.
+
+## Features
+
+- Provides transliteration from Comorian to Arabic script.
+- Supports various Comorian dialects.
+- Easy to integrate into Python projects.
+
+## Goals
+
+- To offer a robust tool for Comorian language preservation.
+- To facilitate research and development in language technology for Comorian.
 
 # Installation
 
