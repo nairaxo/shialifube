@@ -1,6 +1,6 @@
 # shialifube/transliterator.py
 
-from data import unigrams_lat, digrams_lat, unigrams_ara, digrams_ara
+from shialifube.data import unigrams_lat, digrams_lat, unigrams_ara, digrams_ara
 
 def arabic_latin(chaine):
     ## replace the digrams
