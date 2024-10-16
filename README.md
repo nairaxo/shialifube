@@ -35,6 +35,25 @@ If you wish to install the latest version from the GitHub repository (which may 
 pip install git+https://github.com/nairaxo/shialifube.git
 ```
 
+# Usage
+To use **ShiAlifube** in your Python project, import the main `transliterate` function from the library, and pass it the Comorian text you want to transliterate.
+
+Here’s a simple example:
+
+```python
+from shialifube import transliterate
+
+# Example text in Comorian
+text = "ye mwana hende likoli"
+
+# Use the transliteration function
+trans = transliterate(text)
+
+# Display the text transliterated into Arabic script
+print(trans)
+# >> ي‍ہ‍ موﺍنﺍ ح‍ہ‍ند‍ہ‍ ليكهلي
+```
+
 # Contributions Welcome
 Given the limited availability of documents on the Kamar-Eddine system, we invite the community to share any information, resources, or insights that could contribute to improving the ShiAlifube library. Your contributions are valuable in enhancing the accuracy and functionality of this tool, and we greatly appreciate any support in this endeavor.
 
