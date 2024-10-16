@@ -9,6 +9,8 @@ def arabic_latin(chaine):
     
     ## gérer les "\u200dہ\u200d"
     if "‍ہ‍" in chaine:
+        if "ي‍ہ‍" in chaine:
+            chaine = chaine.replace("ي‍ہ‍", "ye")
         chaine = chaine.replace("‍ہ‍", "e")
 
     ## segmenter la chaîne en caractères
