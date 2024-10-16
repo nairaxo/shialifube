@@ -20,7 +20,9 @@ def arabic_latin(chaine):
             ## gestion des "و" et "u"
             if chaine[i] == "و":
                 # if i == len(chaine)-1:
-                if i != 0:
+                if i < len(chaine)-1 and chaine[i+1] == "ﺍ":
+                    chaine[i] = "w"
+                elif i != 0:
                     chaine[i] = "u"
                 else:
                     chaine[i] = "w"
@@ -31,6 +33,8 @@ def arabic_latin(chaine):
                 elif i < len(chaine)-1 and chaine[i+1] == "ي":
                     chaine[i] = "i"
                     chaine[i+1] = "y"
+                elif i == 0:
+                    chaine[i] = "y"
                 else:
                     chaine[i] = "i"
             else:
